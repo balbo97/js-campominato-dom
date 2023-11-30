@@ -19,4 +19,12 @@ Quando si clicca su una bomba e finisce la partita, il software scopre tutte le 
 Consigli del giorno: :party_wizard:
 Scriviamo prima cosa vogliamo fare passo passo in italiano, dividiamo il lavoro in micro problemi.
 Ad esempio: Di cosa ho bisogno per generare i numeri? Proviamo sempre prima con dei console.log() per capire se stiamo ricevendo i dati giusti. Le validazioni e i controlli possiamo farli anche in un secondo momento.
-Buon lavoro, a domani!
+Buon lavoro, a domani!w
+
+<!-- SCALETTA  -->
+1- Genero 16 numeri casuali da uno ad quanto richiesto dal livello selezionato 
+2- Creo un array con questi numeri che dovranno essere uno diverso dall'altro 
+3- l'utente clicca su una delle celle: il numero è presente nell'array generato ?
+ 3.1- si! la cella si colora di rosso e la partita termina 
+ 3.2- no! la cella si colora di azzurro e l'utente può continuare a giocare fino a che tutte le caselle azzure non sono state rivelate.
+4-  al termine della partita il software deve comunicare il numero di volte che l'utente ha cliccato su una cella che non era una bomba, ovvero il punteggio 
