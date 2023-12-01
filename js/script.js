@@ -151,6 +151,7 @@ button_play.addEventListener('click', function(){
                     game_over = true 
                 }
                 
+                
             }
             
                 
